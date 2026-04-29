@@ -41,7 +41,7 @@ def make_styles():
 
 def build_2021():
     doc = SimpleDocTemplate(
-        "/home/claude/Answers_2021_MCA_NEW_Sem1.pdf",
+        "Answers_2021_MCA_NEW_Sem1.pdf",
         pagesize=A4,
         rightMargin=55, leftMargin=55, topMargin=60, bottomMargin=55
     )
