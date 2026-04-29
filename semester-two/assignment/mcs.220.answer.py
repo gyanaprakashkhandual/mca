@@ -6,7 +6,7 @@ from reportlab.lib import colors # pyright: ignore[reportMissingModuleSource]
 from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY, TA_LEFT # pyright: ignore[reportMissingModuleSource]
 
 doc = SimpleDocTemplate(
-    "/home/claude/MCS-220_Answers.pdf",
+    "MCS-220_Answers.pdf",
     pagesize=A4,
     rightMargin=2*cm, leftMargin=2*cm,
     topMargin=2*cm, bottomMargin=2*cm
